@@ -1,7 +1,7 @@
-n=3
+n=float(3)
 if(n>0):
   print("Positive")
-elif(n<0):
-  print("Negative")
-else:
+elif(n==0):
   print("Zero")
+else:
+  print("Negative")
