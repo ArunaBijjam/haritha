@@ -1,6 +1,6 @@
 print("enter '0' for exit")
 ch = input("enter any character: ");
-if ch=='0':
+if ch == '0':
   exit();
 else:
   if(ch>='a' and ch<='z'):
