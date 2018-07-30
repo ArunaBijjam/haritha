@@ -1,6 +1,6 @@
-x=raw_input()
-y=raw_input()
-z=raw_input()
+x=int(raw_input())
+y=int(raw_input())
+z=int(raw_input())
 if(x>y>z):
   print(x, "is larger")
 elif(y>x>z):
