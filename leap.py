@@ -1,14 +1,5 @@
-n=int(input())
-if(n%4):
-	print('yes')
-	if(n%100):
-		print('yes')
-		if(n%400):
-			print('yes')
-		else:
-			print('no')
-	else:
-		print('no')
+year=int(input())
+if(year%4==0) or (year%400==0) and (year%100==0):
+	print("yes")
 else:
-	print('no')
-	
+	print("no")
