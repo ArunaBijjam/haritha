@@ -1,4 +1,2 @@
-n=int(input())
-p=int(input())
-a=n**p
-print(a)
+n,p=map(int,raw_input().split())
+print n**p
