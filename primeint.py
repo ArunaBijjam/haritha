@@ -5,4 +5,4 @@ for i in range(m+1,n):
 			if(i%j==0):
 				break
 		else:
-			print i,
+			print(i)
