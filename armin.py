@@ -1,5 +1,4 @@
-m=int(input())
-n=int(input())
+m,n=map(int,raw_input().split())
 for num in range (m,n+1):
 	order=len(str(num))
 	sum = 0
