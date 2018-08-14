@@ -1,5 +1,5 @@
-a=int(input())
-b=int(input())
+a=int(raw_input())
+b=int(raw_input())
 a,b=b,a
 print(a)
 print(b)
