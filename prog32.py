@@ -1,4 +1,4 @@
-string=raw_input("Enter string:")
+string=raw_input()
 word=1
 for i in string:
 	if(i==' '):
